@@ -6,5 +6,5 @@ import axios from "axios";
     }
 });
 
-export const proxy = "https://airr-back-end.onrender.com/api";
+export const proxy = "https://airr-back-end-production.up.railway.app/api";
 export default axiosInstance;

@@ -40,7 +40,7 @@ export default function App() {
         />
         <div className="flex-1 bg-gray-200 h-[100vh_-_40px] overflow-y-auto">
           <Routes>
-              <Route path="/" element={<LandingPage />} />
+              <Route path="/incident-reporting" element={<LandingPage />} />
               <Route path="/reporting-incident" element={<IncidentForm />} />
              <Route path="/login" element={<LoginPage />} />
              <Route path="/register" element={<Signup />} />
